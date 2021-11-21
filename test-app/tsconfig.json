@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "typescript-npm-package": [
+                "node_modules/typescript-npm-package/src"
+            ],
+            "typescript-npm-package/*": [
+                "node_modules/typescript-npm-package/src/*"
+            ]
+        }
+    }
+}

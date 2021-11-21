@@ -50,6 +50,19 @@ The following tasks are available for `npm run`:
 
 ## Development
 
+Make sure to install dependencies and ensure `rollup` is globally installed: `npm i -g rollup`.
+
+```
+npm install
+```
+
+## Local testing
+
+Run `npm link` in top level library folder.
+Then run `npm link typescript-npm-package` in `test-app`. It will create a local node_modules folder with relevant library.
+
+## Details
+
 While test driven development (TDD) would be a good approach to develop your library, also consider creating an app for prototyping and local testing of your library.
 
 **From your library project**, issue the `npm link` command:
